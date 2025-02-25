@@ -18,6 +18,14 @@ body{
   width: 31%;
 }
 
+.col-40{
+  width: 40%;
+}
+
+.col-60{
+  width: 60%;
+}
+
 .card{
   width: 100%;
   position: relative;
@@ -56,6 +64,10 @@ body{
 
 .py-20{
   padding: 20px 0px;
+}
+
+.pl-20{
+  padding-left: 20px;
 }
 
 .mx-5{
@@ -100,6 +112,10 @@ body{
 
 .align-items-center{
   align-items: center;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-end{
@@ -270,3 +286,12 @@ footer hr{
   color: #fff;
 }
 
+/* pagina dettaglio */
+.description{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.detail-img{
+  width: 80%;
+}
