@@ -27,12 +27,28 @@ body{
   width: 80%;
 }
 
+.pt-10{
+  padding-top: 10px 0px;
+}
+
 .py-10{
   padding: 10px 0px;
 }
 
-.mr-10{
-  margin-right: 10px;
+.py-20{
+  padding: 20px 0px;
+}
+
+.mx-5{
+  margin: 0px 5px;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+
+.mt-10{
+  margin-top: 10px;
 }
 
 .ml-10{
@@ -55,8 +71,16 @@ body{
   justify-content: flex-end;
 }
 
+.justify-content-center{
+  justify-content: center;
+}
+
 .align-items-center{
   align-items: center;
+}
+
+.text-end{
+  text-align: end;
 }
 
 /* page content style */
@@ -70,6 +94,7 @@ header{
   font-weight: 700;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 header content{
@@ -91,12 +116,13 @@ header a{
 
   /* main */
 main .content{
-  padding-top: 100px;
+  padding: 100px 0px;
   gap: 10px;
 }
 
 .card{
   width: 100%;
+  position: relative;
 }
 
 .card-img{
@@ -126,3 +152,43 @@ main .content{
 .full-price{
   text-decoration: line-through;
 }
+
+/* footer */
+footer{
+  width: 100%;
+  background-color: #1A1A1A;
+  color: #fff;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-info li{
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.find-us{
+  text-align: center;
+}
+
+#find-us-id{
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 5px;
+} 
+.find-us ul li{
+  margin: 0px 5px;
+}
+
+footer hr{
+  margin-top: 20px;
+  color: #fff;
+}
+
