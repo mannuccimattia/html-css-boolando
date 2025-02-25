@@ -8,3 +8,5 @@ Numero minimo di push: 8
 Bonus 1 Crea una seconda pagina che sarà collegata a ciascuna card. Questa è chiamata pagina di dettaglio e dovrebbe contenere la stessa immagine dell’elemento e del testo descrittivo correttamente impaginati. Ricorda di mantenere lo stesso header e una corretta navigazione tra le pagine.
 Bonus 2 All'hover sul cuoricino, questo diventa rosso
 Buon lavoro!
+
+DONE
